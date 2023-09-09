@@ -1,0 +1,8 @@
+@import "reset";
+@import "settings/fonts";
+@import "settings/colors";
+@import "_header.scss";
+
+body {
+  font-family: $font-base;
+}
