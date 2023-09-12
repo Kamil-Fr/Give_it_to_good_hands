@@ -1,5 +1,6 @@
 import "../scss/_header.scss";
 import {Link} from "react-router-dom";
+import {Link as ScrollLink} from 'react-scroll';
 
 
 function HomeHeader() {
@@ -13,11 +14,38 @@ function HomeHeader() {
             </ul>
             <ul className="navigation">
                 <li>
-                    <Link to="/">Start</Link>
-                    <Link to="/">O co chodzi?</Link>
-                    <Link to="/">O nas</Link>
-                    <Link to="/">Fundacja i organizacje</Link>
-                    <Link to="/">Kontakt</Link>
+                    <Link
+                        to="/"
+                         smooth={true}
+                        duration={500}
+                    >
+                        Start
+                    </Link>
+                    <ScrollLink
+                        to="treecolumns"
+                        smooth={true}
+                        duration={500}
+                    >
+                        O co chodzi?
+                    </ScrollLink>
+                    <ScrollLink to="aboutus"
+                          smooth={true}
+                          duration={500}
+                    >
+                        O nas
+                    </ScrollLink>
+                    <ScrollLink to="organizations"
+                          smooth={true}
+                          duration={500}
+                    >
+                        Fundacja i organizacje
+                    </ScrollLink>
+                    <ScrollLink to="contact"
+                          smooth={true}
+                          duration={500}
+                    >
+                        Kontakt
+                    </ScrollLink>
                 </li>
             </ul>
         </nav>
