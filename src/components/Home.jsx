@@ -1,13 +1,24 @@
 import HomeHeader from "./HomeHeader.jsx";
 import HomeMainView from "./HomeMainView.jsx";
-import HomeHeroImage from "../assets/Home-Hero-Image.jpg";
+import HomeThreeColumns from "./HomeThreeColumns.jsx";
+import FourSteps from "./FourSteps.jsx";
+import AboutUs from "./AboutUs.jsx";
+import WhoWeHelp from "./WhoWeHelp.jsx";
+import ContactFooter from "./Contact.jsx";
+import Footer from "./Footer.jsx";
 
 function Home () {
     return (
         <>
-            <img className="header-img" src={HomeHeroImage} alt="box with things"/>
+
             <HomeHeader/>
             <HomeMainView/>
+            <HomeThreeColumns/>
+            <FourSteps/>
+            <AboutUs/>
+            <WhoWeHelp/>
+           {/* <Contact/>*/}
+            <Footer/>
         </>
     )
 

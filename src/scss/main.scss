@@ -1,8 +1,18 @@
 @import "reset";
 @import "settings/fonts";
 @import "settings/colors";
-@import "_header.scss";
+@import "header.scss";
+@import "homeMainView.scss";
+@import "fourSteps";
+@import "aboutUs";
+@import "whoWeHelp";
+@import "contactFooter";
 
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: $font-base;
 }
+
+

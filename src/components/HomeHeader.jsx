@@ -3,45 +3,69 @@ import {Link} from "react-router-dom";
 import {Link as ScrollLink} from 'react-scroll';
 
 
+
 function HomeHeader() {
     return (
-        <nav className="header">
-            <ul className="navigation-login">
-                <li>
+        <div className="container" id="homeHeader">
+            <nav>
+                <ul className="navigation">
+                    <li className="logIn">
                     <Link to="/logowanie">Zaloguj</Link>
+                        </li>
+                        <li className="signUp">
                     <Link to="/rejestracja">Załóż konto</Link>
                 </li>
-            </ul>
-            <ul className="navigation">
-                <li>
+                </ul>
+            </nav>
+            <nav>
+                <ul className="navigation">
+                <li className="nav-links">
                     <Link
                         to="/"
-                         smooth={true}
+                        spy={true}
+                        smooth={true}
+                        offset={50}
                         duration={500}
                     >
                         Start
                     </Link>
+                </li>
+                    <li className="nav-links">
                     <ScrollLink
                         to="treecolumns"
+                        spy={true}
                         smooth={true}
+                        offset={50}
                         duration={500}
                     >
                         O co chodzi?
                     </ScrollLink>
-                    <ScrollLink to="aboutus"
-                          smooth={true}
+                    </li>
+                    <li className="nav-links">
+                    <ScrollLink to="aboutUs"
+                                spy={true}
+                                smooth={true}
+                                offset={50}
                           duration={500}
                     >
                         O nas
                     </ScrollLink>
+                    </li>
+                    <li className="nav-links">
                     <ScrollLink to="organizations"
-                          smooth={true}
+                                spy={true}
+                                smooth={true}
+                                offset={50}
                           duration={500}
                     >
                         Fundacja i organizacje
                     </ScrollLink>
+                    </li>
+                    <li className="nav-links">
                     <ScrollLink to="contact"
-                          smooth={true}
+                                spy={true}
+                                smooth={true}
+                                offset={50}
                           duration={500}
                     >
                         Kontakt
@@ -49,6 +73,7 @@ function HomeHeader() {
                 </li>
             </ul>
         </nav>
+        </div>
     );
 }
 

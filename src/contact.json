@@ -1,0 +1,15 @@
+{
+  "form": [
+    {
+      name: [
+        name
+      ],
+      email: [
+        email
+      ],
+      message: [
+        message
+      ]
+    }
+  ]
+}

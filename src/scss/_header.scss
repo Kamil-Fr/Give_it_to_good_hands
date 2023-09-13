@@ -1,0 +1,119 @@
+@import "src/scss/settings/colors";
+@import "src/scss/settings/fonts";
+
+
+.navigation {
+  justify-content: right;
+}
+
+.logIn {
+  padding: 9px 10px;
+   text-align: right;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  color: $color-gray;
+  a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    font-weight: lighter;
+    &:visited {
+      text-decoration: none;
+      color: #737373;
+    }
+    &:hover {
+      border: 1px solid #FAD648;
+    }
+  }
+  span {
+    margin-right: 4rem;
+  }
+
+}
+
+.signUp {
+  padding-top: 9px;
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  color: $color-gray;
+  a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    font-weight: lighter;
+    &:visited {
+      text-decoration: none;
+      color: #737373;
+    }
+    &:hover {
+      border: 1px solid #FAD648;
+    }
+  }
+  span {
+    margin-right: 4rem;
+  }
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 1.5rem;
+
+  li {
+    font-family: $font-base;
+  }
+}
+
+  .nav-links {
+  text-align: right;
+margin-top: 1rem;
+font-size: 0.8rem;
+a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  font-weight: lighter;
+  color: #3C3C3C;
+  &:hover {
+    border: 1px solid #3C3C3C;
+    cursor: pointer;
+  }
+}
+}
+
+.headerButton {
+  font-family: $font-base;
+  text-align: center;
+  margin: 19rem 1rem 0 0;
+
+  h1 {
+    font-size: 2rem;
+    color: $color-darkgray;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  a {
+    text-decoration: none;
+    border: 1px solid #3C3C3C;
+    padding: 1.5rem;
+    margin: 1rem;
+    &:visited {
+      text-decoration: none;
+      color: #3C3C3C;
+    }
+
+  }
+  img {
+    margin: 2rem 0 4rem 0;
+    width: 11rem;
+  }
+  .decorationImage {
+    background-image: url("src/assets/Decoration.svg");
+    width: 15rem;
+    height: 2rem;
+    background-position: center;
+  }
+}
