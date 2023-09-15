@@ -4,7 +4,7 @@ import HomeThreeColumns from "./HomeThreeColumns.jsx";
 import FourSteps from "./FourSteps.jsx";
 import AboutUs from "./AboutUs.jsx";
 import WhoWeHelp from "./WhoWeHelp.jsx";
-import ContactFooter from "./Contact.jsx";
+import Contact from "./Contact.jsx";
 import Footer from "./Footer.jsx";
 
 function Home () {
@@ -17,7 +17,7 @@ function Home () {
             <FourSteps/>
             <AboutUs/>
             <WhoWeHelp/>
-           {/* <Contact/>*/}
+            <Contact/>
             <Footer/>
         </>
     )
