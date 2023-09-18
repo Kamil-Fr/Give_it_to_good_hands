@@ -32,7 +32,7 @@ function HomeHeader() {
                 </li>
                     <li className="nav-links">
                     <ScrollLink
-                        to="treecolumns"
+                        to="threeColumns"
                         spy={true}
                         smooth={true}
                         offset={50}
@@ -52,7 +52,7 @@ function HomeHeader() {
                     </ScrollLink>
                     </li>
                     <li className="nav-links">
-                    <ScrollLink to="organizations"
+                    <ScrollLink to="whoWeHelp"
                                 spy={true}
                                 smooth={true}
                                 offset={50}
@@ -62,7 +62,7 @@ function HomeHeader() {
                     </ScrollLink>
                     </li>
                     <li className="nav-links">
-                    <ScrollLink to="contact"
+                    <ScrollLink to="contactForm"
                                 spy={true}
                                 smooth={true}
                                 offset={50}

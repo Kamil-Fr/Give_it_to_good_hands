@@ -2,7 +2,7 @@ import "../scss/_aboutUs.scss";
 import decoration from "../assets/Decoration.svg"
 import signature from "../assets/Signature.svg"
 
-export default function AboutUs() {
+function AboutUs() {
 
     return (
         <section id="aboutUs" className="aboutUs">
@@ -18,3 +18,4 @@ export default function AboutUs() {
     )
 }
 
+export default AboutUs;
