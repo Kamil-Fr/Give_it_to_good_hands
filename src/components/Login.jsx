@@ -21,7 +21,7 @@ function Login() {
 
        
         if (!email) {
-            setEmailError("Pole email nie może być puste");
+            setEmailError("Podany email jest nieprawidłowy!");
         } else if (!isValidEmail(email)) {
             setEmailError("Wprowadź poprawny adres email");
         } else {
@@ -30,7 +30,7 @@ function Login() {
 
       
         if (password.length < 6) {
-            setPasswordError("Hasło musi mieć co najmniej 6 znaków");
+            setPasswordError("Podane hasło jest za krótkie!");
         } else {
             setPasswordError("");
         }

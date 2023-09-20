@@ -26,10 +26,10 @@ form {
 
   
 
-  .form-fields {
+  .form-fieldss {
     padding: 2rem;
     width: 18rem;
-    height: 18rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     background-color: #F0F1F1;
@@ -49,12 +49,10 @@ form {
   }
 }
 
-.single-field {
-  margin-bottom: 20px;
-}
+
 
 .form-buttons {
-   
+  margin-top: 2rem;
   width: 450px;
   display: flex;
   justify-content: space-between;

@@ -63,7 +63,7 @@ function Register() {
                 <h2>Załóż konto</h2>
                 <div className="decoration"> </div>
                 <form onSubmit={handleSubmit}>
-                    <div className="form-fields">
+                    <div className="form-fieldss">
                         <div className="single-field">
                             <label htmlFor="email">Email</label>
                             <input
