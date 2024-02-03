@@ -84,7 +84,7 @@ const organizationsData = {
     ],
     "Lokalne zbiórki": [
         {
-            name: "Fundacja “Lorem Ipsum 1”",
+            name: "Foundation “Lorem Ipsum 1”",
             mission: "Quis varius quam quisque id diam vel quam elementum pulvinar.",
             needs: "Egestas, sed, tempus, gestas, sed, tempus",
         },
