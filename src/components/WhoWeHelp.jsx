@@ -3,100 +3,100 @@ import "../scss/_whoWeHelp.scss";
 import decoration from "../assets/Decoration.svg";
 
 const organizationsData = {
-    "Fundacje": [
+    "Foundations": [
         {
-            name: "Fundacja “Dbam o Zdrowie”",
-            mission: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
-            needs: "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+            name: "Foundation “I care about my health”",
+            mission: "Helping people in difficult life situations.",
+            needs: "clothes, food, household appliances, furniture, toys",
         },
         {
-            name: "Fundacja “Dla dzieci”",
-            mission: "Pomoc dzieciom z ubogich rodzin.",
-            needs: "ubrania, meble, zabawki",
+            name: "Foundation  ”For children”",
+            mission: "Helping children from poor families.",
+            needs: "clothes, furniture, toys",
         },
         {
-            name: "Fundacja “Bez domu”",
-            mission: "Pomoc dla osób nie posiadających miejsca zamieszkania.",
-            needs: "ubrania, jedzenie, ciepłe koce",
+            name: "Foundation “Without a home”",
+            mission: "Help for people without a place of residence.",
+            needs: "clothes, food, warm blankets",
         },
         {
-            name: "Fundacja “Zdrowie”",
-            mission: "Pomoc osobom znajdującym się w trudnej sytuacji zdrowotnej.",
-            needs: "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+            name: "Foundation “Health“",
+            mission: "Helping people in difficult health situations.",
+            needs: "clothes, food, household appliances, furniture, toys",
         },
         {
-            name: "Fundacja “Dla dzieci”",
-            mission: "Pomoc dzieciom.",
-            needs: "ubrania, meble, zabawki",
+            name: "Foundation “For children”",
+            mission: "Help for children.",
+            needs: "clothes, furniture, toys",
         },
         {
-            name: "Fundacja “Bez domu”",
-            mission: "Pomoc dla osób nie posiadających miejsca zamieszkania.",
-            needs: "ubrania, jedzenie, ciepłe koce",
+            name: "Foundation “Without a home”",
+            mission: "Help for people without a place of residence.",
+            needs: "clothes, food, warm blankets",
         },
         {
-            name: "Fundacja “Dbam o Zdrowie”",
-            mission: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
-            needs: "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+            name: "Foundation “I care about my health”",
+            mission: "Helping people in difficult life situations.",
+            needs: "clothes, food, household appliances, furniture, toys",
         },
         {
-            name: "Fundacja “Dla dzieci”",
-            mission: "Pomoc dzieciom z ubogich rodzin.",
-            needs: "ubrania, meble, zabawki",
+            name: "Foundation “For children”",
+            mission: "Helping children from poor families.",
+            needs: "clothes, furniture, toys",
         },
         {
-            name: "Fundacja “Bez domu”",
-            mission: "Pomoc dla osób nie posiadających miejsca zamieszkania.",
-            needs: "ubrania, jedzenie, ciepłe koce",
-        },
-    ],
-    "Organizacje pozarządowe": [
-        {
-            name: "Organizacja “Lorem Ipsum 1”",
-            mission: "Quis varius quam quisque id diam vel quam elementum pulvinar.",
-            needs: "Egestas, sed, tempus",
-        },
-        {
-            name: "Organizacja “Lorem Ipsum 2”",
-            mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
-            needs: "Ut, aliquam, purus, sit, amet",
-        },
-        {
-            name: "Organizacja “Lorem Ipsum 3”",
-            mission: "Scelerisque in dictum non consectetur a erat nam.",
-            needs: "Mi, quis, hendrerit, dolor",
-        },
-        {
-            name: "Organizacja “Lorem Ipsum 4”",
-            mission: "Quis varius quam quisque id diam vel quam elementum pulvinar.",
-            needs: "Egestas, sed, tempus",
-        },
-        {
-            name: "Organizacja “Lorem Ipsum 5”",
-            mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
-            needs: "Ut, aliquam, purus, sit, amet",
-        },
-        {
-            name: "Organizacja “Lorem Ipsum 6”",
-            mission: "Scelerisque in dictum non consectetur a erat nam.",
-            needs: "Mi, quis, hendrerit, dolor",
+            name: "Foundation “Without a home”",
+            mission: "Help for people without a place of residence.",
+            needs: "clothes, food, warm blankets",
         },
     ],
-    "Lokalne zbiórki": [
+    "Non-governmental organizations": [
         {
-            name: "Foundation “Lorem Ipsum 1”",
-            mission: "Quis varius quam quisque id diam vel quam elementum pulvinar.",
-            needs: "Egestas, sed, tempus, gestas, sed, tempus",
+            name: "Organization “Help”",
+            mission: "Helping people in difficult life situations.",
+            needs: "clothes, food, household appliances, furniture, toys",
         },
         {
-            name: "Fundacja “Lorem Ipsum 2”",
-            mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
-            needs: "Ut, aliquam, purus, sit, amet, Ut, aliquam, purus, sit, amet",
+            name: "Organization “My home”",
+            mission: "Helping homeless people.",
+            needs: "clothes, food, warm blankets",
         },
         {
-            name: "Fundacja “Lorem Ipsum 3”",
-            mission: "Scelerisque in dictum non consectetur a erat nam.",
-            needs: "Mi, quis, hendrerit, dolor, Mi, quis, hendrerit, dolor",
+            name: "Organization “Don't give up!”",
+            mission: "Helping people in difficult life situations.",
+            needs: "clothes, food, household appliances, furniture, toys",
+        },
+        {
+            name: "Organization “Diversity”",
+            mission: "Helping people from various social minorities.",
+            needs: "clothes, food, household appliances, furniture, toys",
+        },
+        {
+            name: "Organization “Share with others”",
+            mission: "Helping the needy.",
+            needs: "clothes, food, household appliances, furniture, toys",
+        },
+        {
+            name: "Organizacja “Reuse”",
+            mission: "Reusing things.",
+            needs: "clothes, furniture, toys",
+        },
+    ],
+    "Local collections": [
+        {
+            name: "Charity collection “Everyone can help“",
+            mission: "Collection for those in need.",
+            needs: "clothes, food, toys",
+        },
+        {
+            name: "Collection for environmental protection",
+            mission: "Reusing things to protect the planet.",
+            needs: "clothes, toys",
+        },
+        {
+            name: "Social collection ”Be eco!”",
+            mission: "Spreading attitudes towards disseminating knowledge about recycling.",
+            needs: "clothes, household appliances, furniture",
         },
     ],
 };
@@ -104,7 +104,7 @@ const organizationsData = {
 const itemsPerPage = 3;
 
 function WhoWeHelp() {
-    const [activeCategory, setActiveCategory] = useState("Fundacje");
+    const [activeCategory, setActiveCategory] = useState("Foundations");
     const [currentPage, setCurrentPage] = useState(1);
 
     const handleCategoryClick = (category) => {
@@ -130,7 +130,7 @@ function WhoWeHelp() {
     return (
         <section id="whoWeHelp" className="whoWeHelp">
             <div className="headerWhoHelp">
-                <h1>Komu pomagamy?</h1>
+                <h1>Who do we help?</h1>
                 <img src={decoration} alt="decoration" />
             </div>
             <div className="switchWhoHelp">
@@ -146,16 +146,14 @@ function WhoWeHelp() {
 
                                 </div>
             <p className="articleP">
-                W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi
-                współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i
-                czego potrzebują.
+            In our database you will find a list of verified entities with which we cooperate. You can check what they do, who they help and what they need.
             </p>
             <div className="viewInfo">
                 {currentItems.map((organization, index) => (
                     <div key={index} className={index === 2 ? "noBorder" : ""}>
                         <div>
                             <h1>{organization.name}</h1>
-                            <p>Cel i misja: {organization.mission}</p>
+                            <p>Goal and mission: {organization.mission}</p>
                         </div>
                         <p>{organization.needs}</p>
                     </div>
