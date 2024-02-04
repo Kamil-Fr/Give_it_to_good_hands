@@ -8,12 +8,12 @@ function Logout() {
     <>
       <HomeHeader />
       <div className='main-login'>
-        <h2>Wylogowanie nastąpiło<br/> pomyślnie!</h2>
+        <h2>You have logged out<br/> successfully!</h2>
         <div className='decoration'> </div>
         <div className='form-button'>
                    <Link to="/">
             <button >
-              Strona główna
+              Home
             </button>
           </Link>
         </div>
