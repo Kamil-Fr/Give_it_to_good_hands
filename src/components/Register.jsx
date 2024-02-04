@@ -60,7 +60,7 @@ function Register() {
         <>
             <HomeHeader />
             <div className="main-login">
-                <h2>Załóż konto</h2>
+                <h2>Create an account</h2>
                 <div className="decoration"> </div>
                 <form onSubmit={handleSubmit}>
                     <div className="form-fieldss">

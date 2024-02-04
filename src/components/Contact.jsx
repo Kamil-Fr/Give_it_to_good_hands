@@ -91,7 +91,7 @@ function Contact() {
         <section id="contactForm">
             <div className="leftSideImage"></div>
             <div className="rightSideForm">
-                <h1>Skontaktuj się z nami</h1>
+                <h1>Contact us</h1>
                 <img src={decoration} alt="decoration" />
                 {successMessage && <p className="success">{successMessage}</p>}
                 {errorMessage && <p className="error">{errorMessage}</p>}

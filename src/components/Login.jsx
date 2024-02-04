@@ -51,7 +51,7 @@ function Login() {
         <>
             <HomeHeader />
             <div className="main-login">
-                <h2>Zaloguj się</h2>
+                <h2>Log in</h2>
                 <div className="decoration"> </div>
                 <form onSubmit={handleSubmit}>
                     <div className="form-fields">
