@@ -27,25 +27,25 @@ function Register() {
 
        
         if (!email) {
-            setEmailError("Pole email nie może być puste");
+            setEmailError("The email field cannot be empty");
         } else if (!isValidEmail(email)) {
-            setEmailError("Wprowadź poprawny adres email");
+            setEmailError("Please enter a valid email address");
         } else {
             setEmailError("");
         }
 
         
         if (password.length < 6) {
-            setPasswordError("Hasło musi mieć co najmniej 6 znaków");
+            setPasswordError("The password must be at least 6 characters long");
         } else {
             setPasswordError("");
         }
 
      
         if (password2.length < 6) {
-            setPassword2Error("Powtórzone hasło musi mieć co najmniej 6 znaków");
+            setPassword2Error("The repeated password must be at least 6 characters long");
         } else if (password !== password2) {
-            setPassword2Error("Hasło i powtórzone hasło nie są identyczne");
+            setPassword2Error("The password and the repeated password are not identical");
         } else {
             setPassword2Error("");
         }
@@ -75,7 +75,7 @@ function Register() {
                             <p className="error">{emailError}</p>
                         </div>
                         <div className="single-field">
-                            <label htmlFor="password">Hasło</label>
+                            <label htmlFor="password">Password</label>
                             <input
                                 type="password"
                                 name="password"
@@ -85,7 +85,7 @@ function Register() {
                             <p className="error">{passwordError}</p>
                         </div>
                         <div className="single-field">
-                            <label htmlFor="password2">Powtórz hasło</label>
+                            <label htmlFor="password2">Repeat password</label>
                             <input
                                 type="password"
                                 name="password2"
@@ -96,8 +96,8 @@ function Register() {
                         </div>
                     </div>
                     <div className="form-buttons">
-                        <button className="empty-button">Zaloguj się</button>
-                        <button className="btn-reg">Załóż konto</button>
+                        <button className="empty-button">Log in</button>
+                        <button className="btn-reg">Create an account</button>
                     </div>
                 </form>
             </div>
