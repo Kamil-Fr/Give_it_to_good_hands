@@ -21,16 +21,16 @@ function Login() {
 
        
         if (!email) {
-            setEmailError("Podany email jest nieprawidłowy!");
+            setEmailError("The email address provided is incorrect!");
         } else if (!isValidEmail(email)) {
-            setEmailError("Wprowadź poprawny adres email");
+            setEmailError("Please enter a valid email address");
         } else {
             setEmailError("");
         }
 
       
         if (password.length < 6) {
-            setPasswordError("Podane hasło jest za krótkie!");
+            setPasswordError("The password entered is too short!");
         } else {
             setPasswordError("");
         }
@@ -66,7 +66,7 @@ function Login() {
                             <p className="error">{emailError}</p>
                         </div>
                         <div className="single-field">
-                            <label htmlFor="password">Hasło</label>
+                            <label htmlFor="password">Password</label>
                             <input
                                 type="password"
                                 name="password"
@@ -78,9 +78,9 @@ function Login() {
                     </div>
                     <div className="form-buttons">
                         <button className="empty-button" type="submit">
-                            Zaloguj się
+                            Log in
                         </button>
-                        <button className="btn-reg">Załóż konto</button>
+                        <button className="btn-reg">Create an account</button>
                     </div>
                 </form>
             </div>
