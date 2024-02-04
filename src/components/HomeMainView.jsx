@@ -7,20 +7,20 @@ return (
     <section className='main-view'>
         <div className='hero-photo'></div>
         <div className='hero-text'>
-            <h2>Zacznij pomagać!</h2>
-            <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
+            <h2>Start helping!</h2>
+            <h2>Put unwanted things in trusted hands</h2>
             <img src={decorationImage} alt="decoration pic" className='decorationImage'/>
             <div className='btns'>
                 <ScrollLink
                     activeClass="active"
                     className="btn"
-                    to="/logowanie"
+                    to="/login"
                     spy={true}
                     smooth={true}
                     offset={50}
                     duration={500}
                 >
-                    ODDAJ<br/>RZECZY
+                    GIVE YOUR<br/>ITEMS BACK
                 </ScrollLink>
                 <ScrollLink
                     activeClass="active"
@@ -31,7 +31,7 @@ return (
                     offset={50}
                     duration={500}
                 >
-                    ZORGANIZUJ<br/>ZBIÓRKĘ
+                    ORGANISE A<br/>COLLECTION
                 </ScrollLink>
 
             </div>

@@ -10,10 +10,10 @@ function HomeHeader() {
             <nav>
                 <ul className="navigation">
                     <li className="logIn">
-                    <Link to="/logowanie">Zaloguj</Link>
+                    <Link to="/login">Log in</Link>
                         </li>
                         <li className="signUp">
-                    <Link to="/rejestracja">Załóż konto</Link>
+                    <Link to="/register">Create an account</Link>
                 </li>
                 </ul>
             </nav>
@@ -38,7 +38,7 @@ function HomeHeader() {
                         offset={50}
                         duration={500}
                     >
-                        O co chodzi?
+                        What's the matter?
                     </ScrollLink>
                     </li>
                     <li className="nav-links">
@@ -48,7 +48,7 @@ function HomeHeader() {
                                 offset={50}
                           duration={500}
                     >
-                        O nas
+                        About us
                     </ScrollLink>
                     </li>
                     <li className="nav-links">
@@ -58,7 +58,7 @@ function HomeHeader() {
                                 offset={50}
                           duration={500}
                     >
-                        Fundacja i organizacje
+                        Foundation and organizations
                     </ScrollLink>
                     </li>
                     <li className="nav-links">
@@ -68,7 +68,7 @@ function HomeHeader() {
                                 offset={50}
                           duration={500}
                     >
-                        Kontakt
+                        Contact
                     </ScrollLink>
                 </li>
             </ul>

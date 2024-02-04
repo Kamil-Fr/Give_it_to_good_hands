@@ -11,37 +11,37 @@ function FourSteps() {
         <>
             <section id="greetingSteps">
                 <div className="greetingSteps">
-                    <h1>Wystarczą 4 proste kroki</h1>
+                    <h1>Just 4 simple steps</h1>
                     <img src={decoration} alt="decoration"/>
                 </div>
                 <div className="fourSteps">
                     <div className="firstStep">
                         <img src={iconOne} alt="icons"/>
-                        <h1>Wybierz rzeczy</h1>
+                        <h1>Choose things</h1>
                         <div className="pipe"></div>
-                        <p>ubrania, zabawki, sprzęt i inne</p>
+                        <p>clothes, toys, equipment and more</p>
                     </div>
                     <div className="secondStep">
                         <img src={iconTwo} alt="icons"/>
-                        <h1>Spakuj je</h1>
+                        <h1>Pack them up</h1>
                         <div className="pipe"></div>
-                        <p>skorzystaj z worków na śmieci</p>
+                        <p>use garbage bags</p>
                     </div>
                     <div className="thirdStep">
                         <img src={iconThree} alt="icons"/>
-                        <h1>Zdecyduj komu chcesz pomóc</h1>
+                        <h1>Decide who you want to help</h1>
                         <div className="pipe"></div>
-                        <p>wybierz zaufane miejsce</p>
+                        <p>choose a trusted place</p>
                     </div>
                     <div className="fourthStep">
                         <img src={iconFour} alt="icons"/>
-                        <h1>Zamów kuriera</h1>
+                        <h1>Order a courier</h1>
                         <div className="pipe"></div>
-                        <p>kurier przyjedzie w dogodnym terminie</p>
+                        <p>the courier will arrive at a convenient time</p>
                     </div>
                 </div>
                 <div className="greetingButton">
-                    <Link to="/logowanie">ODDAJ RZECZY</Link>
+                    <Link to="/login">GIVE YOUR ITEMS BACK</Link>
                 </div>
             </section>
         </>

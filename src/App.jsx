@@ -14,10 +14,10 @@ function App() {
       <div className="app">
           <Routes>
               <Route path="/" element={<Home/>}/>
-              <Route path="/oddaj-rzeczy" element={<Form/>}/>
-              <Route path="/logowanie" element={<Login/>}/>
-              <Route path="/rejestracja" element={<Register/>}/>
-              <Route path="/wylogowano" element={<Logout/>}/>
+              <Route path="/give-items-back" element={<Form/>}/>
+              <Route path="/login" element={<Login/>}/>
+              <Route path="/register" element={<Register/>}/>
+              <Route path="/logout" element={<Logout/>}/>
           </Routes>
       </div>
   )

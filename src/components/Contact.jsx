@@ -24,26 +24,26 @@ function Contact() {
         const newErrors = {};
 
         if (!name) {
-            newErrors.name = "Pole imienia jest wymagane.";
+            newErrors.name = "The name field is required.";
         }
 
         if (name.trim().split(" ").length > 1) {
-            newErrors.name = "Imię nie może zawierać spacji.";
+            newErrors.name = "The name cannot contain spaces.";
         }
 
         if (!email) {
-            newErrors.email = "Pole email jest wymagane.";
+            newErrors.email = "Email field is required.";
         } else {
             const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
             if (!emailPattern.test(email)) {
-                newErrors.email = "Nieprawidłowy adres email.";
+                newErrors.email = "Incorrect e-mail address.";
             }
         }
 
         if (!message) {
-            newErrors.message = "Pole wiadomości jest wymagane.";
+            newErrors.message = "The message field is required.";
         } else if (message.length < 120) {
-            newErrors.message = "Wiadomość musi zawierać co najmniej 120 znaków.";
+            newErrors.message = "The message must contain at least 120 characters.";
         }
 
         setErrors(newErrors);
@@ -72,17 +72,17 @@ function Contact() {
                 });
 
                 if (response.status === 200) {
-                                     setSuccessMessage("Formularz został wysłany poprawnie!");
+                                     setSuccessMessage("The form has been successfully submitted!");
                 } else {
                                       const responseData = await response.json();
                     setErrorMessage(
                         `Błąd serwera: ${
-                            responseData.errors ? responseData.errors[0] : "Nieznany błąd."
+                            responseData.errors ? responseData.errors[0] : "Unknown error."
                         }`
                     );
                 }
             } catch (error) {
-                                setErrorMessage("Błąd podczas wysyłania formularza: " + error.message);
+                                setErrorMessage("Error sending form: " + error.message);
             }
         }
     };
@@ -97,24 +97,24 @@ function Contact() {
                 {errorMessage && <p className="error">{errorMessage}</p>}
                 <form onSubmit={handleSubmit}>
                     <label>
-                        Wpisz swoje imię
-                        <input type="text" placeholder="Krzysztof" onChange={handleName} />
+                    Enter your name
+                        <input type="text" placeholder="Chris" onChange={handleName} />
                         {errors.name && <p className="error">{errors.name}</p>}
                     </label>
                     <label>
-                        Wpisz swój email
-                        <input type="text" placeholder="xyz@xyz.pl" onChange={handleEmail} />
+                    Enter your email
+                        <input type="text" placeholder="xyz@xyz.com" onChange={handleEmail} />
                         {errors.email && <p className="error">{errors.email}</p>}
                     </label>
                     <label>
-                        Wpisz swoją wiadomość
+                    Enter your message
                         <textarea
                             onChange={handleMessage}
                             placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                         ></textarea>
                         {errors.message && <p className="error">{errors.message}</p>}
                     </label>
-                    <button type="submit">Wyślij</button>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </section>
